@@ -63,7 +63,4 @@ class TestBaconComOvos(unittest.TestCase):
                 self.assertEqual(bacon_com_ovos(entrada), saida)
 
 
-
 unittest.main(verbosity=2)
-
-
