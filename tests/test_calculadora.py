@@ -1,5 +1,5 @@
 import unittest
-from calculadora import soma
+from src.calculadora import soma
 
 class TestCalcyuladora(unittest.TestCase):
     def test_soma_5_e_5_deve_retornar_10(self):
@@ -27,6 +27,5 @@ class TestCalcyuladora(unittest.TestCase):
         with self.assertRaises(AssertionError):
             soma('10', 10)
 
-
-
-unittest.main(verbosity=2)
+if __name__ == '__main__':
+    unittest.main(verbosity=2)
